@@ -2,7 +2,9 @@
 /admin
 _build/
 data/
-temp/
+**/temp/
+**/saved_models/
+
 
 # Ignore file types that may contain data or models
 *.p
