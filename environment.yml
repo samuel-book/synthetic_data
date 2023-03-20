@@ -1,0 +1,23 @@
+name: samuel
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - jupyterlab
+  - matplotlib=3.4
+  - numpy
+  - pip
+  - pandas
+  - python=3.8
+  - seaborn
+  - scikit-learn
+  - tensorflow-gpu=2.4
+  - pip:
+    - graphviz
+    - imbalanced-learn
+    - pydot
+    - shap==0.41
+    - optuna
+    - torch
+    - xgboost==1.5
